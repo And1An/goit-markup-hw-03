@@ -14,11 +14,7 @@ h1, h2, h3, h4, h5, h6, p{
     margin: 0;
 }
 
-ul{
-    margin: 0;
-    padding-left: 0;
 
-}
 
 img{
     display: block;
@@ -37,6 +33,8 @@ a {
 
 ul {
     list-style: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 button{
@@ -44,16 +42,43 @@ button{
 }
 
 .container { 
-max-width: 1128px;
+max-width: 1158px;
 padding-left: 15px;
 padding-right: 15px;
 margin-left:  auto;
 margin-right:  auto;
+outline: 1px solid red;
+}
+
+header{
+    border-bottom: 1px solid #E7E9FC;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    gap: 76px;
+
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 
 
-.logo{
+.logo {
     color: var(--brand-color);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -61,6 +86,9 @@ margin-right:  auto;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    
+    
+  
    
 }
 
@@ -90,9 +118,24 @@ margin-right:  auto;
 }
 
 
-.list{
+.list {
     list-style: none;
+
 }
+
+.container-list-item{
+    display: flex;
+    gap: 24px;
+    padding-top: 120px;
+
+}
+
+.container-list{
+    display: flex;
+    gap: 40px;
+   
+}
+
 
 
 address{
@@ -100,10 +143,25 @@ address{
 }
 
 .contacts{
-        color:var(--brand-color5);
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+    color:var(--brand-color5);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-left: auto;
+
+       
+        
+}
+
+.contacts-list{
+    display: flex;
+    gap: 40px;
+   
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
 }
 
 .contacts:hover{
@@ -168,6 +226,8 @@ address{
 
 .footer{
     background-color: var(--brand-color2);
+    padding-top: 101px;
+    padding-bottom: 100px;
 }
 
 .title-footer{
@@ -178,6 +238,7 @@ address{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
 }
 
 .logo-studio-footer {
@@ -194,11 +255,14 @@ address{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-top: 17px;
 }
 
 
 .body{
     background-color: var(--brand-color2);
+    padding: 188px 472px 292px 472px;
+
 }
 
 .title{
@@ -208,6 +272,7 @@ address{
         letter-spacing: 0.02em;
         color: var(--brand-color4);
         text-align: center;
+        margin-bottom: 48px;
 }
 
 .title-btn{
@@ -218,6 +283,10 @@ address{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    padding: 16px 32px 16px 32px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    
 }
 
 
@@ -247,6 +316,7 @@ address{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--brand-color5);
+        width: 264px;
 }
 
 .subtitle{
@@ -257,10 +327,23 @@ address{
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
+        padding-top: 120px;
+        padding-bottom: 72px;
+      
+}
+
+.container-img{
+    display: flex;
+    gap: 24px;
+    padding-bottom: 120px;
 }
 
 .subject-list-teammate{
     background-color: var(--brand-color4);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    
+       
 }
 
 .aside{
@@ -273,14 +356,26 @@ address{
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
+        background-color: var(--brand-color6);
+        padding-top: 240px;
+        padding-bottom: 72px;
 }
 
+.subject-list{
+    background-color: var(--brand-color6);
+    display: flex;
+    gap: 24px;
+    padding-bottom: 120px;
+}
 .subject-name{
         color: var(--brand-color2);
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        text-align: center;
+        padding-top: 32px;
+        padding-bottom: 8px;
 }
 
 .subject-jobtitle{
@@ -288,5 +383,7 @@ address{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        text-align: center;
+        padding-bottom: 32px;
 }
 

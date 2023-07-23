@@ -53,15 +53,12 @@ margin-right:  auto;
 
 header{
     border-bottom: 1px solid var(--brand-color7);
-    padding-top: 24px;
-    padding-bottom: 24px;
     
 }
 
 .header-nav{
     display: flex;
     align-items: center;
-    gap: 76px;
 
 }
 .visually-hidden {
@@ -110,6 +107,7 @@ header{
         line-height: 1.5;
         letter-spacing: 0.02em;
         padding: 24px 0;
+        display: flex;
 }
 
 .list-link:hover{
@@ -129,7 +127,6 @@ header{
 .container-list-item{
     display: flex;
     gap: 24px;
-    padding-top: 120px;
 
 }
 
@@ -223,10 +220,7 @@ address{
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-top: 32px;
     margin-bottom: 8px;
-    padding-left: 16px;
-
 }
 
 .picture-desc{
@@ -270,7 +264,6 @@ address{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 17px;
 }
 
 
@@ -289,6 +282,9 @@ address{
         text-align: center;
         margin-bottom: 48px;
         max-width: 496px;
+        margin-right: auto;
+        margin-left: auto;
+
 }
 
 .title-btn{
@@ -306,6 +302,8 @@ address{
     min-width: 169px;
     height: 56px;
     border: none;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
@@ -338,8 +336,6 @@ address{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--brand-color5);
-    padding-bottom: 32px;
-    padding-left: 16px;
 }
 .caption-desc{
         font-size: 16px;
@@ -357,7 +353,6 @@ address{
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
-        padding-top: 120px;
         margin-bottom: 72px;
 
       
@@ -366,7 +361,6 @@ address{
 .container-img{
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
 }
 
 .subject-list-teammate{
@@ -391,7 +385,6 @@ address{
         text-align: center;
         text-transform: capitalize;
         background-color: var(--brand-color6);
-        padding-top: 240px;
         margin-bottom: 72px;
 
 }
@@ -400,7 +393,6 @@ address{
     background-color: var(--brand-color6);
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
 }
 .subject-name{
         color: var(--brand-color2);
@@ -419,7 +411,6 @@ address{
         line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: center;
-        padding-bottom: 32px;
 
 }
 
@@ -440,14 +431,12 @@ address{
     flex-wrap: wrap;
     display: flex;
     gap: 24px;
-    padding-bottom: 120px;
     row-gap: 48px;
 
   
     }
 
 .container-images-link{
-   border: 1px solid var(--brand-color7);
    width: calc((100% - 48px) / 3);
     
 }
@@ -461,10 +450,6 @@ address{
     padding-bottom: 120px;
 }
 
-.list-btn-item{
-    width: calc((100% - 48px) / 3);
-
-}
 
 .container-imeages{
     padding: 32px 16px;

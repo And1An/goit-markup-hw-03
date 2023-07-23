@@ -320,6 +320,10 @@ address{
         letter-spacing: 0.02em;
 }
 
+.section-2{
+    padding: 120px 0;
+}
+
 .list-tagline{
     line-height: 1.5;
     letter-spacing: 0.02em;

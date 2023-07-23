@@ -412,8 +412,8 @@ address{
     display: flex;
     gap: 24px;
     padding-bottom: 120px;
-    border: 1px solid var(--brand-color7);
-}
+  
+    }
 
 .container-images-link{
     border: 1px solid var(--brand-color7);

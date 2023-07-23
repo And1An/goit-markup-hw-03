@@ -325,6 +325,10 @@ address{
     padding: 120px 0;
 }
 
+.section-three{
+    padding-bottom: 120px;
+}
+
 .list-tagline{
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -349,7 +353,8 @@ address{
         text-align: center;
         text-transform: capitalize;
         padding-top: 120px;
-        padding-bottom: 72px;
+        margin-bottom: 72px;
+
       
 }
 

@@ -207,12 +207,14 @@ address{
 
 .pagination-btn:hover{
     background-color: var(--brand-color3);
-    color:var(--brand-color4)
+    color:var(--brand-color4);
+    border: 1px solid transparent;
 }
 
 .pagination-btn:focus{
     background-color: var(--brand-color3);
     color: var(--brand-color4);
+    border: 1px solid transparent;
 }
 
 .picture-subtitle{
@@ -422,11 +424,12 @@ address{
 
 
 .list-btn{
-    padding-top: 96px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     display: flex;
     justify-content: center;
     gap: 24px;
+    row-gap: 48px;
+
 
 
 }
@@ -446,4 +449,14 @@ address{
 
 .name-job{
     padding: 32px 0;
+}
+
+.main-section{
+    padding-top:96px;
+    padding-bottom: 120px;
+}
+
+.list-btn-item{
+    width: calc((100% - 48px) / 3);
+    
 }
